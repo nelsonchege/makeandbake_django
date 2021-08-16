@@ -15,3 +15,5 @@ class CakeOrder(generics.ListCreateAPIView):
 class CakeVariety(generics.ListCreateAPIView):
     queryset = CakeVariety.objects.all()
     serializer_class = CakeVarietySerializer
+
+    
