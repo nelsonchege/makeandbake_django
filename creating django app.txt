@@ -1,5 +1,0 @@
-pipenv install django
-pipenv shell
-django-admin startproject(name of project).
-python manage.py startapp(name of project)
-python manage.py createsuperuser
